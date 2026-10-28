@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.exemplo.turno12horas'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.exemplo.turno12horas"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
