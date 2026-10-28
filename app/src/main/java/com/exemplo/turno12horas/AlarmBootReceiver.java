@@ -7,10 +7,9 @@ import android.util.Log;
 
 public class AlarmBootReceiver extends BroadcastReceiver {
     @Override
-    public onReceive(Context context, Intent intent) {
+    public void onReceive(Context context, Intent intent) {
         if (Intent.ACTION_BOOT_COMPLETED.equals(intent.getAction())) {
-            Log.d("AlarmBootReceiver", "Telemóvel reiniciado. Reagendando alarmes do turno...");
-            // Aqui será reativada a lógica de reagendamento dos alarmes da RHI Magnesita
+            Log.d("AlarmBootReceiver", "Telemóvel reiniciado.");
         }
     }
 }
